@@ -1,0 +1,4 @@
+n,m=map(int,input().split())
+s=n*m
+r=s//2
+print(r)
