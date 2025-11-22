@@ -1,0 +1,4 @@
+m=input()
+n=m[0].upper()
+print(n+m[1:])
+
