@@ -1,0 +1,7 @@
+n,m=map(int,input().split())
+rev=int(str(n)[::-1])
+revo=int(str(m)[::-1])
+if rev>revo:
+	print(rev)
+else:
+	print(revo)
