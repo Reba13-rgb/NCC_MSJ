@@ -1,0 +1,3 @@
+s=input()
+m=s.index("a")
+print(s[m:])
