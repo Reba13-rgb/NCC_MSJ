@@ -1,0 +1,9 @@
+n,m=map(int,input().split())
+a,b=map(int,input().split())
+sum=0
+if n!=a and m!=b:
+	print(2)
+elif n!=a:
+	print(1)
+elif m!=b:
+	print(1)
