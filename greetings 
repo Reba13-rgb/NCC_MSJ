@@ -1,0 +1,8 @@
+s = input() 
+new_s = ""
+for char in s:
+    if char == "e":
+        new_s += char*2
+    else:
+        new_s += char
+print(new_s)
