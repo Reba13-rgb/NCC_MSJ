@@ -1,0 +1,15 @@
+n,m=map(int,input().split())
+sum=0
+for i in range(n):
+	a,b=map(int,input().split())
+	c=a*b
+	sum+=c
+total=0
+for i in range(m):
+	c,d=map(int,input().split())
+	e=c*d
+	total+=e
+if total==sum:
+	print("same")
+else:
+	print("different")
