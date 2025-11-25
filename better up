@@ -1,0 +1,13 @@
+n = int(input())
+
+arr = list(map(int, input().split()))
+
+total_bases = 0
+official = 0
+
+for m in arr:
+    if m != -1:      
+        total_bases += m
+        official += 1
+
+print(total_bases / official)
