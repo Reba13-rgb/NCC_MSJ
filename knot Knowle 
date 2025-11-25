@@ -1,0 +1,7 @@
+n = int(input())
+m = list(map(int, input().split()))
+s = list(map(int, input().split()))
+for knot in m:
+    if knot not in s:
+        print(knot)
+        break
