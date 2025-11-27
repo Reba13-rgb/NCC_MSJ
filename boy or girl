@@ -1,0 +1,8 @@
+n=input()
+result="".join(set(n))
+m=len(result)
+if m%2!=0:
+	print("IGNORE HIM!")
+else:
+	print("CHAT WITH HER!")
+	
