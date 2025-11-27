@@ -1,0 +1,16 @@
+word = input()
+
+lower_count = 0
+upper_count = 0
+
+for ch in word:
+    if ch.islower():
+        lower_count += 1
+    elif ch.isupper():
+        upper_count += 1
+if lower_count>upper_count:
+	print(word.lower())
+elif lower_count<upper_count:
+	print(word.upper())
+else:
+	print(word.lower())
