@@ -1,0 +1,15 @@
+n = int(input())
+
+height = 0
+i = 1
+
+while True:
+    need = i * (i + 1) // 2  
+    if n >= need:
+        n -= need
+        height += 1
+        i += 1
+    else:
+        break
+
+print(height)
