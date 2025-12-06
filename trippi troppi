@@ -1,0 +1,7 @@
+n=int(input())
+for i in range(n):
+	a,b,c=map(str,input().split(" "))
+	m=a[0]
+	n=b[0]
+	s=c[0]
+	print(m+n+s)
