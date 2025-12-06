@@ -1,0 +1,11 @@
+n = int(input())
+s = input().strip()
+if len(s) != n:
+    print("Warning: string length does not match n!")
+stack = []
+for ch in s:
+    if stack and stack[-1] != ch:
+        stack.pop() 
+    else:
+        stack.append(ch)
+print(len(stack))
